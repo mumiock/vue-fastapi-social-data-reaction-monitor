@@ -33,18 +33,12 @@ This client application provides a user-friendly interface for viewing social ne
 
 ## Installation
 
-1. Clone the repository:
-```bash
-git clone https://github.com/yourusername/social-network-processor.git
-cd social-network-processor/client
-```
-
-2. Install dependencies:
+1. Install dependencies:
 ```bash
 npm install
 ```
 
-3. Create a `.env` file in the client directory with the following content:
+2. Create a `.env` file in the client directory with the following content:
 ```
 VUE_APP_API_URL=http://localhost:8000
 VUE_APP_WS_URL=ws://localhost:8000
